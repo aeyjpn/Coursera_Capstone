@@ -1,0 +1,1952 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_40bac314bde5408db1780aaa30631c27 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_40bac314bde5408db1780aaa30631c27" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_40bac314bde5408db1780aaa30631c27 = L.map(
+        'map_40bac314bde5408db1780aaa30631c27', {
+        center: [13.7456058, 100.5341187],
+        zoom: 13,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_4c5def1747414c52b038f82c68054760 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_40bac314bde5408db1780aaa30631c27);
+    
+            var circle_marker_7b2acbe5401d4cf7a6d5e08a259f934b = L.circleMarker(
+                [13.7456058, 100.5341187],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_272f4fe68f9b448c9030e8ee878905ac = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_62e94fac2b324a5a80c21ae3b068e0fe = $(`<div id="html_62e94fac2b324a5a80c21ae3b068e0fe" style="width: 100.0%; height: 100.0%;">Siam</div>`)[0];
+                popup_272f4fe68f9b448c9030e8ee878905ac.setContent(html_62e94fac2b324a5a80c21ae3b068e0fe);
+            
+
+            circle_marker_7b2acbe5401d4cf7a6d5e08a259f934b.bindPopup(popup_272f4fe68f9b448c9030e8ee878905ac)
+            ;
+
+            
+        
+    
+            var circle_marker_522118881f6a4beb90352249641c39fa = L.circleMarker(
+                [13.74570260988103, 100.53522679447426],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_9fe468e2e7294a8995da51bcae1a5efe = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b0851df0249749e799299e10fb26928c = $(`<div id="html_b0851df0249749e799299e10fb26928c" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_9fe468e2e7294a8995da51bcae1a5efe.setContent(html_b0851df0249749e799299e10fb26928c);
+            
+
+            circle_marker_522118881f6a4beb90352249641c39fa.bindPopup(popup_9fe468e2e7294a8995da51bcae1a5efe)
+            ;
+
+            
+        
+    
+            var circle_marker_44844b7667f242e39443741aefe48ef8 = L.circleMarker(
+                [13.746226241883258, 100.53306476916585],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_d8e064be041d496191d9f68f713c9119 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a2736c285eac4d56bf488d6eda2ca50f = $(`<div id="html_a2736c285eac4d56bf488d6eda2ca50f" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_d8e064be041d496191d9f68f713c9119.setContent(html_a2736c285eac4d56bf488d6eda2ca50f);
+            
+
+            circle_marker_44844b7667f242e39443741aefe48ef8.bindPopup(popup_d8e064be041d496191d9f68f713c9119)
+            ;
+
+            
+        
+    
+            var circle_marker_7507f7c4cb784ecd9fccf3bfc33cfe7a = L.circleMarker(
+                [13.74588350973425, 100.53036646031298],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_bd7478c91adc46e6aacc49d83fb9c122 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a2a872f782fa41d38e5185908813ad7c = $(`<div id="html_a2a872f782fa41d38e5185908813ad7c" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_bd7478c91adc46e6aacc49d83fb9c122.setContent(html_a2a872f782fa41d38e5185908813ad7c);
+            
+
+            circle_marker_7507f7c4cb784ecd9fccf3bfc33cfe7a.bindPopup(popup_bd7478c91adc46e6aacc49d83fb9c122)
+            ;
+
+            
+        
+    
+            var circle_marker_6b6ea7a8a45a422dab2bd81fd487149f = L.circleMarker(
+                [13.74673913724016, 100.53905908428042],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_6ce2c99d8750498c913a9680df0f8a58 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a640d6ac87344d4a869e03839d96cc84 = $(`<div id="html_a640d6ac87344d4a869e03839d96cc84" style="width: 100.0%; height: 100.0%;">Supermarket</div>`)[0];
+                popup_6ce2c99d8750498c913a9680df0f8a58.setContent(html_a640d6ac87344d4a869e03839d96cc84);
+            
+
+            circle_marker_6b6ea7a8a45a422dab2bd81fd487149f.bindPopup(popup_6ce2c99d8750498c913a9680df0f8a58)
+            ;
+
+            
+        
+    
+            var circle_marker_93d77afcc0c64ff59c363909bcf52466 = L.circleMarker(
+                [13.746905913330716, 100.5415165724447],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_77b9b7c03efe4adf9a78222dac6d80d0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_af504beb43df4cedb8f9c2bd9d0c1152 = $(`<div id="html_af504beb43df4cedb8f9c2bd9d0c1152" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_77b9b7c03efe4adf9a78222dac6d80d0.setContent(html_af504beb43df4cedb8f9c2bd9d0c1152);
+            
+
+            circle_marker_93d77afcc0c64ff59c363909bcf52466.bindPopup(popup_77b9b7c03efe4adf9a78222dac6d80d0)
+            ;
+
+            
+        
+    
+            var circle_marker_87865a20bf1840d5ab73dcab794cd77a = L.circleMarker(
+                [13.750611434656147, 100.53949952311817],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_501d0a4275b6454b9328eca4b00d9cfb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1575d8f1dfe1401eaeb855e5883e3334 = $(`<div id="html_1575d8f1dfe1401eaeb855e5883e3334" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_501d0a4275b6454b9328eca4b00d9cfb.setContent(html_1575d8f1dfe1401eaeb855e5883e3334);
+            
+
+            circle_marker_87865a20bf1840d5ab73dcab794cd77a.bindPopup(popup_501d0a4275b6454b9328eca4b00d9cfb)
+            ;
+
+            
+        
+    
+            var circle_marker_4965fdfadb0f44228884deb8d7d3bde3 = L.circleMarker(
+                [13.743229736880128, 100.53330262399504],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_649a8d636ff04bf09dc6d0e06fe8ee9b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c65b7ef9585b4614bcf924434056fbbd = $(`<div id="html_c65b7ef9585b4614bcf924434056fbbd" style="width: 100.0%; height: 100.0%;">College Cafeteria</div>`)[0];
+                popup_649a8d636ff04bf09dc6d0e06fe8ee9b.setContent(html_c65b7ef9585b4614bcf924434056fbbd);
+            
+
+            circle_marker_4965fdfadb0f44228884deb8d7d3bde3.bindPopup(popup_649a8d636ff04bf09dc6d0e06fe8ee9b)
+            ;
+
+            
+        
+    
+            var circle_marker_1344c4d47e5c4b40896f40487f14b9bf = L.circleMarker(
+                [13.745187481934199, 100.53501871065],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_db1e83f007d349f3a96f77f70695c963 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_791c685de4d94de09c4188c573bd2768 = $(`<div id="html_791c685de4d94de09c4188c573bd2768" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_db1e83f007d349f3a96f77f70695c963.setContent(html_791c685de4d94de09c4188c573bd2768);
+            
+
+            circle_marker_1344c4d47e5c4b40896f40487f14b9bf.bindPopup(popup_db1e83f007d349f3a96f77f70695c963)
+            ;
+
+            
+        
+    
+            var circle_marker_a50db43eeb9f465cb67b6784c05d7ad6 = L.circleMarker(
+                [13.744604682189323, 100.54573858650006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_6e55213d5448432f87fb818e807b3c16 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0eb55443fab34902bf772d2ad4a2008b = $(`<div id="html_0eb55443fab34902bf772d2ad4a2008b" style="width: 100.0%; height: 100.0%;">Supermarket</div>`)[0];
+                popup_6e55213d5448432f87fb818e807b3c16.setContent(html_0eb55443fab34902bf772d2ad4a2008b);
+            
+
+            circle_marker_a50db43eeb9f465cb67b6784c05d7ad6.bindPopup(popup_6e55213d5448432f87fb818e807b3c16)
+            ;
+
+            
+        
+    
+            var circle_marker_9361eee7da2b4474968f02aae3a56964 = L.circleMarker(
+                [13.750148, 100.536924],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_fcba6843cab7407e80d9d02081495fdb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_034a56145b134b3ebea215f5c8f31882 = $(`<div id="html_034a56145b134b3ebea215f5c8f31882" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_fcba6843cab7407e80d9d02081495fdb.setContent(html_034a56145b134b3ebea215f5c8f31882);
+            
+
+            circle_marker_9361eee7da2b4474968f02aae3a56964.bindPopup(popup_fcba6843cab7407e80d9d02081495fdb)
+            ;
+
+            
+        
+    
+            var circle_marker_58b607099efc4a9389d23befa2ca4462 = L.circleMarker(
+                [13.746012991637453, 100.53019602237947],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_69e480280a1446eea9d8ae968516e70f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_039542ad4c164c63b4003c2b83292382 = $(`<div id="html_039542ad4c164c63b4003c2b83292382" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_69e480280a1446eea9d8ae968516e70f.setContent(html_039542ad4c164c63b4003c2b83292382);
+            
+
+            circle_marker_58b607099efc4a9389d23befa2ca4462.bindPopup(popup_69e480280a1446eea9d8ae968516e70f)
+            ;
+
+            
+        
+    
+            var circle_marker_6aa5dea265644a0b9b1f43570682afcb = L.circleMarker(
+                [13.747376285640138, 100.53430351519397],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_f6d0b276460b4bb58c3201f0b1fcb9bd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_065a6114df2a462db236a8a94bd6b49f = $(`<div id="html_065a6114df2a462db236a8a94bd6b49f" style="width: 100.0%; height: 100.0%;">Food & Drink Shop</div>`)[0];
+                popup_f6d0b276460b4bb58c3201f0b1fcb9bd.setContent(html_065a6114df2a462db236a8a94bd6b49f);
+            
+
+            circle_marker_6aa5dea265644a0b9b1f43570682afcb.bindPopup(popup_f6d0b276460b4bb58c3201f0b1fcb9bd)
+            ;
+
+            
+        
+    
+            var circle_marker_ce466d3f52474512890ebff6b81dc33a = L.circleMarker(
+                [13.748419834671756, 100.54079070326193],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_53f8037880b7430da1a2ca40a7244562 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cebc7bad985940c3967acf31549fb35c = $(`<div id="html_cebc7bad985940c3967acf31549fb35c" style="width: 100.0%; height: 100.0%;">Street Food Gathering</div>`)[0];
+                popup_53f8037880b7430da1a2ca40a7244562.setContent(html_cebc7bad985940c3967acf31549fb35c);
+            
+
+            circle_marker_ce466d3f52474512890ebff6b81dc33a.bindPopup(popup_53f8037880b7430da1a2ca40a7244562)
+            ;
+
+            
+        
+    
+            var circle_marker_ebdf374b71cf4d46a6158ecfa2adc2e3 = L.circleMarker(
+                [13.745721619902504, 100.5349921986375],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_cd5d6408c55445d7a0083c0fb7565494 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_abd70f00f91e4b648e8a6a50b1a1e303 = $(`<div id="html_abd70f00f91e4b648e8a6a50b1a1e303" style="width: 100.0%; height: 100.0%;">Chinese Restaurant</div>`)[0];
+                popup_cd5d6408c55445d7a0083c0fb7565494.setContent(html_abd70f00f91e4b648e8a6a50b1a1e303);
+            
+
+            circle_marker_ebdf374b71cf4d46a6158ecfa2adc2e3.bindPopup(popup_cd5d6408c55445d7a0083c0fb7565494)
+            ;
+
+            
+        
+    
+            var circle_marker_07a2e20cc3b84e6a9bbeadb78790a029 = L.circleMarker(
+                [13.74588383915146, 100.53326177188406],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_f499749cf78f41dd92d3d555f3cb7d35 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dc403b79456a4ff29143e137cc1df2de = $(`<div id="html_dc403b79456a4ff29143e137cc1df2de" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_f499749cf78f41dd92d3d555f3cb7d35.setContent(html_dc403b79456a4ff29143e137cc1df2de);
+            
+
+            circle_marker_07a2e20cc3b84e6a9bbeadb78790a029.bindPopup(popup_f499749cf78f41dd92d3d555f3cb7d35)
+            ;
+
+            
+        
+    
+            var circle_marker_e0a730a5c1cf4fe29b9cebc30b51030c = L.circleMarker(
+                [13.745915654933862, 100.53492078355467],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_02cf128987a346ddaab4a931a02f8d6f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e0305dc7b70b484ba32b314e664a2383 = $(`<div id="html_e0305dc7b70b484ba32b314e664a2383" style="width: 100.0%; height: 100.0%;">Noodle House</div>`)[0];
+                popup_02cf128987a346ddaab4a931a02f8d6f.setContent(html_e0305dc7b70b484ba32b314e664a2383);
+            
+
+            circle_marker_e0a730a5c1cf4fe29b9cebc30b51030c.bindPopup(popup_02cf128987a346ddaab4a931a02f8d6f)
+            ;
+
+            
+        
+    
+            var circle_marker_e63f05dfc09c404bb9ce8d6dcc7fba05 = L.circleMarker(
+                [13.746313869809294, 100.53483288814436],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_aed8e8fd42544e74add31e4227cf4871 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f873ab2d045c49f3b079e6aad7ca7a19 = $(`<div id="html_f873ab2d045c49f3b079e6aad7ca7a19" style="width: 100.0%; height: 100.0%;">Cosmetics Shop</div>`)[0];
+                popup_aed8e8fd42544e74add31e4227cf4871.setContent(html_f873ab2d045c49f3b079e6aad7ca7a19);
+            
+
+            circle_marker_e63f05dfc09c404bb9ce8d6dcc7fba05.bindPopup(popup_aed8e8fd42544e74add31e4227cf4871)
+            ;
+
+            
+        
+    
+            var circle_marker_36896af9a3a34f298fd3825e69053ecd = L.circleMarker(
+                [13.745690875240408, 100.53525909013312],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_ac8d85c6fc034ff3b722c1b01f80689b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9c664d188b0f40b6bbaf4ab1f5322169 = $(`<div id="html_9c664d188b0f40b6bbaf4ab1f5322169" style="width: 100.0%; height: 100.0%;">Restaurant</div>`)[0];
+                popup_ac8d85c6fc034ff3b722c1b01f80689b.setContent(html_9c664d188b0f40b6bbaf4ab1f5322169);
+            
+
+            circle_marker_36896af9a3a34f298fd3825e69053ecd.bindPopup(popup_ac8d85c6fc034ff3b722c1b01f80689b)
+            ;
+
+            
+        
+    
+            var circle_marker_4efb358154bb492fb1781d8325944d30 = L.circleMarker(
+                [13.746514, 100.533089],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_24353c5eff8b4a25b326a03174fe1f39 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_acaaf90ac1e1466e8aaa2ba7c1c6a72f = $(`<div id="html_acaaf90ac1e1466e8aaa2ba7c1c6a72f" style="width: 100.0%; height: 100.0%;">Noodle House</div>`)[0];
+                popup_24353c5eff8b4a25b326a03174fe1f39.setContent(html_acaaf90ac1e1466e8aaa2ba7c1c6a72f);
+            
+
+            circle_marker_4efb358154bb492fb1781d8325944d30.bindPopup(popup_24353c5eff8b4a25b326a03174fe1f39)
+            ;
+
+            
+        
+    
+            var circle_marker_73e87f8935ee4b94a009e6cda16051da = L.circleMarker(
+                [13.746621035826445, 100.5393563556803],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_25e2c4ac33df42879fdd626d63c12ecc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ea875a81fb3e40f3832673351a70f425 = $(`<div id="html_ea875a81fb3e40f3832673351a70f425" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_25e2c4ac33df42879fdd626d63c12ecc.setContent(html_ea875a81fb3e40f3832673351a70f425);
+            
+
+            circle_marker_73e87f8935ee4b94a009e6cda16051da.bindPopup(popup_25e2c4ac33df42879fdd626d63c12ecc)
+            ;
+
+            
+        
+    
+            var circle_marker_96b93716983649198b50cc18d9046aef = L.circleMarker(
+                [13.728109, 100.541626],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_a8f05725b4714d7984d1d5e98f631756 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b3d3592cb0fa4fb0ad95ee136d43b13f = $(`<div id="html_b3d3592cb0fa4fb0ad95ee136d43b13f" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_a8f05725b4714d7984d1d5e98f631756.setContent(html_b3d3592cb0fa4fb0ad95ee136d43b13f);
+            
+
+            circle_marker_96b93716983649198b50cc18d9046aef.bindPopup(popup_a8f05725b4714d7984d1d5e98f631756)
+            ;
+
+            
+        
+    
+            var circle_marker_ff4a3f872d6a43baaa461f9575e7c4f4 = L.circleMarker(
+                [13.753326354644502, 100.54045929159611],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_e760c990c50648cdb30ef7be90298a1a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f6739ef9daa045f2a2f0ac8bdae9e352 = $(`<div id="html_f6739ef9daa045f2a2f0ac8bdae9e352" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_e760c990c50648cdb30ef7be90298a1a.setContent(html_f6739ef9daa045f2a2f0ac8bdae9e352);
+            
+
+            circle_marker_ff4a3f872d6a43baaa461f9575e7c4f4.bindPopup(popup_e760c990c50648cdb30ef7be90298a1a)
+            ;
+
+            
+        
+    
+            var circle_marker_f817dde2420c46feb57b0678225ed2bd = L.circleMarker(
+                [13.745124860413123, 100.53045470454578],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_71279789c9f54495a8f2c603155fc7af = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0057811a475f446d89241f328127aa52 = $(`<div id="html_0057811a475f446d89241f328127aa52" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_71279789c9f54495a8f2c603155fc7af.setContent(html_0057811a475f446d89241f328127aa52);
+            
+
+            circle_marker_f817dde2420c46feb57b0678225ed2bd.bindPopup(popup_71279789c9f54495a8f2c603155fc7af)
+            ;
+
+            
+        
+    
+            var circle_marker_5e6c34d461344586b29d7ffd22dd9fd6 = L.circleMarker(
+                [13.745579565894946, 100.53111938396441],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_318cd186fc3949858f92c09e8ee6d352 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6123628d42aa419ba34f4791a644c48f = $(`<div id="html_6123628d42aa419ba34f4791a644c48f" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_318cd186fc3949858f92c09e8ee6d352.setContent(html_6123628d42aa419ba34f4791a644c48f);
+            
+
+            circle_marker_5e6c34d461344586b29d7ffd22dd9fd6.bindPopup(popup_318cd186fc3949858f92c09e8ee6d352)
+            ;
+
+            
+        
+    
+            var circle_marker_4c68e2a93e034441ac89b27288cc2945 = L.circleMarker(
+                [13.733189717452774, 100.53501520959635],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_86130ed10aea4ef3b7c25d6a22a6cfe0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_79f26e477ebe403885d3fb5fc7266ad8 = $(`<div id="html_79f26e477ebe403885d3fb5fc7266ad8" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_86130ed10aea4ef3b7c25d6a22a6cfe0.setContent(html_79f26e477ebe403885d3fb5fc7266ad8);
+            
+
+            circle_marker_4c68e2a93e034441ac89b27288cc2945.bindPopup(popup_86130ed10aea4ef3b7c25d6a22a6cfe0)
+            ;
+
+            
+        
+    
+            var circle_marker_0a399d55567d4f968649b52001b94190 = L.circleMarker(
+                [13.7439742, 100.52931],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_28883f1e063d40e39e82cf41b9427f8f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_056c76dc3e6c40ddb77faad348271cca = $(`<div id="html_056c76dc3e6c40ddb77faad348271cca" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_28883f1e063d40e39e82cf41b9427f8f.setContent(html_056c76dc3e6c40ddb77faad348271cca);
+            
+
+            circle_marker_0a399d55567d4f968649b52001b94190.bindPopup(popup_28883f1e063d40e39e82cf41b9427f8f)
+            ;
+
+            
+        
+    
+            var circle_marker_511378406d3a465cbe12b957b221298a = L.circleMarker(
+                [13.74407193702008, 100.5294133268073],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_9f1627e8a8774fe389b0038b940835ee = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3376b56cc5844150b3dcb36aaf8c7527 = $(`<div id="html_3376b56cc5844150b3dcb36aaf8c7527" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_9f1627e8a8774fe389b0038b940835ee.setContent(html_3376b56cc5844150b3dcb36aaf8c7527);
+            
+
+            circle_marker_511378406d3a465cbe12b957b221298a.bindPopup(popup_9f1627e8a8774fe389b0038b940835ee)
+            ;
+
+            
+        
+    
+            var circle_marker_a6db12e5b2e14f1392b2bf6c4e5b9716 = L.circleMarker(
+                [13.743883899350784, 100.53023497687134],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_e24635092caf471a87685d7d618e3afd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_49c1ca4adccf4e6fb0f70b73ded276a2 = $(`<div id="html_49c1ca4adccf4e6fb0f70b73ded276a2" style="width: 100.0%; height: 100.0%;">Thai Restaurant</div>`)[0];
+                popup_e24635092caf471a87685d7d618e3afd.setContent(html_49c1ca4adccf4e6fb0f70b73ded276a2);
+            
+
+            circle_marker_a6db12e5b2e14f1392b2bf6c4e5b9716.bindPopup(popup_e24635092caf471a87685d7d618e3afd)
+            ;
+
+            
+        
+    
+            var circle_marker_3665a1069eac438699970970d1fb7991 = L.circleMarker(
+                [13.741844, 100.535417],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_9315b766a5224811997ca82b5c76d8fa = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f3aa42e30a74479ebee2e0f2f72fafb6 = $(`<div id="html_f3aa42e30a74479ebee2e0f2f72fafb6" style="width: 100.0%; height: 100.0%;">Food Truck</div>`)[0];
+                popup_9315b766a5224811997ca82b5c76d8fa.setContent(html_f3aa42e30a74479ebee2e0f2f72fafb6);
+            
+
+            circle_marker_3665a1069eac438699970970d1fb7991.bindPopup(popup_9315b766a5224811997ca82b5c76d8fa)
+            ;
+
+            
+        
+    
+            var circle_marker_e0e398af592b4b3685b5b5dda2d3372e = L.circleMarker(
+                [13.746093620316133, 100.52999327703726],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_aeeb6a770f1c4ed687d64bd62e18ad4a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d964269f20ab4e7e94a894b2f4980a05 = $(`<div id="html_d964269f20ab4e7e94a894b2f4980a05" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_aeeb6a770f1c4ed687d64bd62e18ad4a.setContent(html_d964269f20ab4e7e94a894b2f4980a05);
+            
+
+            circle_marker_e0e398af592b4b3685b5b5dda2d3372e.bindPopup(popup_aeeb6a770f1c4ed687d64bd62e18ad4a)
+            ;
+
+            
+        
+    
+            var circle_marker_91fd78c2e17842889ff2cb6520480e0e = L.circleMarker(
+                [13.7649680353321, 100.44398728961849],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_135d4c33883246168be30c046975a528 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e06a22c25d70426aaa3c750a045a6442 = $(`<div id="html_e06a22c25d70426aaa3c750a045a6442" style="width: 100.0%; height: 100.0%;">Market</div>`)[0];
+                popup_135d4c33883246168be30c046975a528.setContent(html_e06a22c25d70426aaa3c750a045a6442);
+            
+
+            circle_marker_91fd78c2e17842889ff2cb6520480e0e.bindPopup(popup_135d4c33883246168be30c046975a528)
+            ;
+
+            
+        
+    
+            var circle_marker_057718ff5cf044dc9e3c5df19364db24 = L.circleMarker(
+                [13.75137058135095, 100.53721286926293],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_0438a509fa494f94a880d8779ffb108b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8065c8f40def428193dab5f9cca7c49e = $(`<div id="html_8065c8f40def428193dab5f9cca7c49e" style="width: 100.0%; height: 100.0%;">Seafood Restaurant</div>`)[0];
+                popup_0438a509fa494f94a880d8779ffb108b.setContent(html_8065c8f40def428193dab5f9cca7c49e);
+            
+
+            circle_marker_057718ff5cf044dc9e3c5df19364db24.bindPopup(popup_0438a509fa494f94a880d8779ffb108b)
+            ;
+
+            
+        
+    
+            var circle_marker_3f778ecafbba42baa0910ee76a39c139 = L.circleMarker(
+                [13.739379096613874, 100.54822692159487],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_f780e99f9e2344bcb12d9d95f33b0d49 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f2d6fee82b8a47b3aa66d005e60b9fa7 = $(`<div id="html_f2d6fee82b8a47b3aa66d005e60b9fa7" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_f780e99f9e2344bcb12d9d95f33b0d49.setContent(html_f2d6fee82b8a47b3aa66d005e60b9fa7);
+            
+
+            circle_marker_3f778ecafbba42baa0910ee76a39c139.bindPopup(popup_f780e99f9e2344bcb12d9d95f33b0d49)
+            ;
+
+            
+        
+    
+            var circle_marker_3310c1893893431799794367e8a845b4 = L.circleMarker(
+                [13.743726773054817, 100.529213250098],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_f8434f21830540138e6374af84c077bf = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d50b29a655314e1187c2c74f962e9269 = $(`<div id="html_d50b29a655314e1187c2c74f962e9269" style="width: 100.0%; height: 100.0%;">Thai Restaurant</div>`)[0];
+                popup_f8434f21830540138e6374af84c077bf.setContent(html_d50b29a655314e1187c2c74f962e9269);
+            
+
+            circle_marker_3310c1893893431799794367e8a845b4.bindPopup(popup_f8434f21830540138e6374af84c077bf)
+            ;
+
+            
+        
+    
+            var circle_marker_d70233c97e3a4096b50bd2f15e07beb7 = L.circleMarker(
+                [13.752752979369985, 100.53817793777267],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_03636944ef3c4295afef6cffffde9727 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7ea2884e68a745fa838352d797346298 = $(`<div id="html_7ea2884e68a745fa838352d797346298" style="width: 100.0%; height: 100.0%;">Thai Restaurant</div>`)[0];
+                popup_03636944ef3c4295afef6cffffde9727.setContent(html_7ea2884e68a745fa838352d797346298);
+            
+
+            circle_marker_d70233c97e3a4096b50bd2f15e07beb7.bindPopup(popup_03636944ef3c4295afef6cffffde9727)
+            ;
+
+            
+        
+    
+            var circle_marker_9510a2421ebf40298fe2f0ebacfaa2c0 = L.circleMarker(
+                [13.750918355466146, 100.53752092001483],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_296abf71026c48a7963db6cb475755ff = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0a48d2b466104880903b23f3eb2154bc = $(`<div id="html_0a48d2b466104880903b23f3eb2154bc" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_296abf71026c48a7963db6cb475755ff.setContent(html_0a48d2b466104880903b23f3eb2154bc);
+            
+
+            circle_marker_9510a2421ebf40298fe2f0ebacfaa2c0.bindPopup(popup_296abf71026c48a7963db6cb475755ff)
+            ;
+
+            
+        
+    
+            var circle_marker_57e8091e5cf04ab9a217cf737ed4faa8 = L.circleMarker(
+                [13.751547413368058, 100.53909591247947],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_2451761d01ab492183fcfe77d9a534b6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b363373313ae48f9a774535ad5a53d4f = $(`<div id="html_b363373313ae48f9a774535ad5a53d4f" style="width: 100.0%; height: 100.0%;">Noodle House</div>`)[0];
+                popup_2451761d01ab492183fcfe77d9a534b6.setContent(html_b363373313ae48f9a774535ad5a53d4f);
+            
+
+            circle_marker_57e8091e5cf04ab9a217cf737ed4faa8.bindPopup(popup_2451761d01ab492183fcfe77d9a534b6)
+            ;
+
+            
+        
+    
+            var circle_marker_033c24defbaa480e991032f18cce93a5 = L.circleMarker(
+                [13.75126568505448, 100.53807735443115],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_051dff54509a4288834e7aa05dd2e261 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_09de4dad92514647b6c055fd45165420 = $(`<div id="html_09de4dad92514647b6c055fd45165420" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_051dff54509a4288834e7aa05dd2e261.setContent(html_09de4dad92514647b6c055fd45165420);
+            
+
+            circle_marker_033c24defbaa480e991032f18cce93a5.bindPopup(popup_051dff54509a4288834e7aa05dd2e261)
+            ;
+
+            
+        
+    
+            var circle_marker_1f26926d92bd4ae78322b06315cf6368 = L.circleMarker(
+                [13.747481947313657, 100.52438855417972],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_2d8a15b87ae94b6f986dc4c2c8b5f8b3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9bc7390ec1e7459ab90831ea4ee31812 = $(`<div id="html_9bc7390ec1e7459ab90831ea4ee31812" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_2d8a15b87ae94b6f986dc4c2c8b5f8b3.setContent(html_9bc7390ec1e7459ab90831ea4ee31812);
+            
+
+            circle_marker_1f26926d92bd4ae78322b06315cf6368.bindPopup(popup_2d8a15b87ae94b6f986dc4c2c8b5f8b3)
+            ;
+
+            
+        
+    
+            var circle_marker_5fc95e3c90494478adb6c9e4a5e7e91b = L.circleMarker(
+                [13.746263401147718, 100.53957939147948],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_0a42570699964f76aa08fd5d32d76791 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1569498e6b594cfb81fd25aedd958603 = $(`<div id="html_1569498e6b594cfb81fd25aedd958603" style="width: 100.0%; height: 100.0%;">Cosmetics Shop</div>`)[0];
+                popup_0a42570699964f76aa08fd5d32d76791.setContent(html_1569498e6b594cfb81fd25aedd958603);
+            
+
+            circle_marker_5fc95e3c90494478adb6c9e4a5e7e91b.bindPopup(popup_0a42570699964f76aa08fd5d32d76791)
+            ;
+
+            
+        
+    
+            var circle_marker_945ef47b19d04771a2aad28932506d09 = L.circleMarker(
+                [13.768364325677194, 100.52606892642204],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_0c5e4ab9a95545cd9e906ec02243a7c3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f42c75ba83d1452c926a79ca1b26d2b8 = $(`<div id="html_f42c75ba83d1452c926a79ca1b26d2b8" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_0c5e4ab9a95545cd9e906ec02243a7c3.setContent(html_f42c75ba83d1452c926a79ca1b26d2b8);
+            
+
+            circle_marker_945ef47b19d04771a2aad28932506d09.bindPopup(popup_0c5e4ab9a95545cd9e906ec02243a7c3)
+            ;
+
+            
+        
+    
+            var circle_marker_5ae1cfdda2f14d9f8b3c8bada5bfdd8a = L.circleMarker(
+                [13.744398, 100.541546],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_455c7699d1b449b3adbbf2f065a9a14c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1093fd9f30d748fb8c97253ea999bece = $(`<div id="html_1093fd9f30d748fb8c97253ea999bece" style="width: 100.0%; height: 100.0%;">Restaurant</div>`)[0];
+                popup_455c7699d1b449b3adbbf2f065a9a14c.setContent(html_1093fd9f30d748fb8c97253ea999bece);
+            
+
+            circle_marker_5ae1cfdda2f14d9f8b3c8bada5bfdd8a.bindPopup(popup_455c7699d1b449b3adbbf2f065a9a14c)
+            ;
+
+            
+        
+    
+            var circle_marker_82a95fd250ca49ae80280fa6577bddf3 = L.circleMarker(
+                [13.750973888094938, 100.53906440734863],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_cd7f985778ae4e0bbd3951e5fff19c3d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e92cf6a0f92f46bf8fb6819532bae73e = $(`<div id="html_e92cf6a0f92f46bf8fb6819532bae73e" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_cd7f985778ae4e0bbd3951e5fff19c3d.setContent(html_e92cf6a0f92f46bf8fb6819532bae73e);
+            
+
+            circle_marker_82a95fd250ca49ae80280fa6577bddf3.bindPopup(popup_cd7f985778ae4e0bbd3951e5fff19c3d)
+            ;
+
+            
+        
+    
+            var circle_marker_e7b1eeb1438f405d9524ef04b1a162e3 = L.circleMarker(
+                [13.750485405767982, 100.54094731329593],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_27c8dcc9fa5747b89c8a511d35d6b190 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b03208fb1d2347d1abee3627b8bd285e = $(`<div id="html_b03208fb1d2347d1abee3627b8bd285e" style="width: 100.0%; height: 100.0%;">Food Truck</div>`)[0];
+                popup_27c8dcc9fa5747b89c8a511d35d6b190.setContent(html_b03208fb1d2347d1abee3627b8bd285e);
+            
+
+            circle_marker_e7b1eeb1438f405d9524ef04b1a162e3.bindPopup(popup_27c8dcc9fa5747b89c8a511d35d6b190)
+            ;
+
+            
+        
+    
+            var circle_marker_0ffeb118f62d42b89c0cb77333ce3e3d = L.circleMarker(
+                [13.738100989816662, 100.51811128838844],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_34fd31957fc04bd9b830637ed661d841 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7126788e43874e8e84c32bb99fee6705 = $(`<div id="html_7126788e43874e8e84c32bb99fee6705" style="width: 100.0%; height: 100.0%;">Vegetarian / Vegan Restaurant</div>`)[0];
+                popup_34fd31957fc04bd9b830637ed661d841.setContent(html_7126788e43874e8e84c32bb99fee6705);
+            
+
+            circle_marker_0ffeb118f62d42b89c0cb77333ce3e3d.bindPopup(popup_34fd31957fc04bd9b830637ed661d841)
+            ;
+
+            
+        
+    
+            var circle_marker_9b12839ecce54870be66afd2247906c0 = L.circleMarker(
+                [13.760518259513494, 100.56978246575085],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_a114f7b78a494faaae5bec62f54db226 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0d329cf43eab4980a685e3b22502c933 = $(`<div id="html_0d329cf43eab4980a685e3b22502c933" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_a114f7b78a494faaae5bec62f54db226.setContent(html_0d329cf43eab4980a685e3b22502c933);
+            
+
+            circle_marker_9b12839ecce54870be66afd2247906c0.bindPopup(popup_a114f7b78a494faaae5bec62f54db226)
+            ;
+
+            
+        
+    
+            var circle_marker_ce31feb4ad1548199ec1a978fd0f1917 = L.circleMarker(
+                [13.750732733827759, 100.5386094790117],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_cfc609c3f9174301a05eecfe5828efaf = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cdf690f0748244a8bfda2bbfa660a171 = $(`<div id="html_cdf690f0748244a8bfda2bbfa660a171" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_cfc609c3f9174301a05eecfe5828efaf.setContent(html_cdf690f0748244a8bfda2bbfa660a171);
+            
+
+            circle_marker_ce31feb4ad1548199ec1a978fd0f1917.bindPopup(popup_cfc609c3f9174301a05eecfe5828efaf)
+            ;
+
+            
+        
+    
+            var circle_marker_f8b05b4df3bf4446b53cc403805d4efa = L.circleMarker(
+                [13.73494801404441, 100.5262011762195],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_dad4a098ff9c4348ad638b19229aabce = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0dcd1b7bd6d643008085943f4b84a1ba = $(`<div id="html_0dcd1b7bd6d643008085943f4b84a1ba" style="width: 100.0%; height: 100.0%;">Thai Restaurant</div>`)[0];
+                popup_dad4a098ff9c4348ad638b19229aabce.setContent(html_0dcd1b7bd6d643008085943f4b84a1ba);
+            
+
+            circle_marker_f8b05b4df3bf4446b53cc403805d4efa.bindPopup(popup_dad4a098ff9c4348ad638b19229aabce)
+            ;
+
+            
+        
+    
+            var circle_marker_2f976c7b359b4948a8e322d531a2a12d = L.circleMarker(
+                [13.749109, 100.541371],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_a6b8ba72d67d4f69a081b83ce7f4db18 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8d9f9987ebbb472b98719f613e98a19d = $(`<div id="html_8d9f9987ebbb472b98719f613e98a19d" style="width: 100.0%; height: 100.0%;">Thai Restaurant</div>`)[0];
+                popup_a6b8ba72d67d4f69a081b83ce7f4db18.setContent(html_8d9f9987ebbb472b98719f613e98a19d);
+            
+
+            circle_marker_2f976c7b359b4948a8e322d531a2a12d.bindPopup(popup_a6b8ba72d67d4f69a081b83ce7f4db18)
+            ;
+
+            
+        
+    
+            var circle_marker_4f867a55eefc47168b791823a7eea998 = L.circleMarker(
+                [13.743366671734734, 100.53347314776582],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_40bac314bde5408db1780aaa30631c27);
+            
+    
+            var popup_28fe803355a74b2cbcc5017ae4cc0ab3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_75b0862f46ee4cdf9e15ff58c240b9b7 = $(`<div id="html_75b0862f46ee4cdf9e15ff58c240b9b7" style="width: 100.0%; height: 100.0%;">Food Court</div>`)[0];
+                popup_28fe803355a74b2cbcc5017ae4cc0ab3.setContent(html_75b0862f46ee4cdf9e15ff58c240b9b7);
+            
+
+            circle_marker_4f867a55eefc47168b791823a7eea998.bindPopup(popup_28fe803355a74b2cbcc5017ae4cc0ab3)
+            ;
+
+            
+        
+</script>
